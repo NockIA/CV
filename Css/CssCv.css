@@ -1,0 +1,277 @@
+body{
+    padding-top: 3rem;
+    background-color: wheat;
+    }
+
+/*--------------------Querys--------------------*/
+
+@media only screen and ( max-width: 900px ) {
+    .globalContainer{
+        margin-left: 2.3rem;
+    }
+}
+    
+@media only screen and ( min-width: 900px ) {
+    .globalContainer{
+        margin-left: 30rem;
+    }
+}
+    
+/*--------------------Querys--------------------*/
+
+/*--------------------Containers--------------------*/
+
+.globalContainer{
+    height: 70.5rem;
+    /* margin-left: 38rem; */
+    min-width: 55rem;
+    max-width: 55rem;
+    margin-right: 27rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: -0.5rem;
+    background-color: #333;
+}
+
+.containerLeft{
+    min-height: 63.6rem;
+    margin-left: -0.5rem;
+    margin-top: -0.5rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: monospace;
+    background-color: #333;   
+}
+
+.containerCenter{
+    min-height: 58.6rem;
+    width: 28rem;
+    padding-top: 7rem;
+    margin-top: -0.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    color: white;
+    font-family: monospace;
+}
+
+.containerRight{
+    margin-top: 18.5rem;
+    background-color: white;
+    height: 54.2rem;
+    border-radius: 30px;
+    width: 10rem;
+    margin-right: -4rem;
+    margin-left: -5rem;
+    clip-path: polygon(66.6% 0, 0% 0%, 0% 96%, 66.6% 96%);
+}
+
+.containerDescription{
+    max-height: 13.45rem;
+    padding-top: 3rem;
+    background-color : white;
+    margin-left: -6rem;
+    margin-right: 0rem ;
+    width: 30rem;
+    padding-left: 5rem;
+    border-radius: 30px;
+    margin-bottom: -6.3rem;
+    padding-bottom: 6.98rem;
+    clip-path: polygon(17% 0%, 100% 0, 100% 91%, 17% 91%);
+}
+
+#paddingLastDescription{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    min-height: 18.73rem;
+    
+}
+
+.containerCategory{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+}
+
+.containerName{
+    margin-left: -5.75rem ;
+    clip-path: polygon(0% 0%, 75% 0, 75% 100%, 0% 100%);
+    margin-top: -3.5rem;
+    align-items: center;
+    background-color: burlywood;
+    border-radius: 30px;
+    height: 10rem;
+    width: 45rem;
+    margin-bottom: 4rem;
+}
+
+/*--------------------Containers--------------------*/
+
+/*--------------------Category Css--------------------*/
+
+.triangle{
+    background-color : #333 ;
+    margin-left: -2.7rem;
+    margin-right: 0rem ;
+    width: 2.8rem;
+    height: 3rem;
+    margin-bottom: -3.5rem;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+
+.rating{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+#ratingTypeScript{
+    margin-top: -0.5rem;
+}
+
+#spanMaginTop{
+    margin-top: 1.9rem;
+}
+
+span{
+    margin-top: -0.9rem;
+}
+
+.Title{
+    margin-left: -8rem;
+    margin-top: 6.5rem;
+    position: relative;
+    width: 17rem;
+    background-color: burlywood;
+    padding-left: 5rem;
+    padding-top: 1.rem;
+    padding-bottom: 1rem;
+    height: 2rem;
+    font-size: 0.9rem;
+}
+
+#titleBack{
+    background-color: burlywood;
+    border-radius: 20px;
+    clip-path: polygon(24% 0, 100% 0, 100% 100%, 24% 100%);  
+}
+
+.titleBelow{
+    margin-top: 1.5rem;
+}
+
+.stars{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.passionsLogo{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/*--------------------Category Css--------------------*/
+
+/*--------------------Description--------------------*/
+
+.styleUnderline{
+    margin-top: -0.7rem;
+    margin-left: 3rem;
+    width: 15rem;
+    height: 0.4rem;
+    border-radius: 5px;
+    background-color: #333;
+}
+
+.stylePoint{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    background-color: #333;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+/*--------------------Description--------------------*/
+
+/*--------------------Profil Picture--------------------*/
+
+.styleImg {
+    margin-bottom: 10rem;
+    width: 8rem;
+    height: 8rem;
+    border: 5px solid #333;
+    background-color: #333;
+    border-radius: 999px;
+}
+
+.cardImg{
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+    position:relative;
+    padding-top: 4rem;
+    padding: 1rem;
+    height: 12rem;
+    border-radius: 15px;
+    clip-path: polygon(49% 75%, 100% 100%, 100% 0, 0 0, 0 100%);
+    background-color: burlywood;
+}
+
+/*--------------------Profil Picture--------------------*/
+
+p{
+    padding-left: 3rem;
+    padding-right: 2rem;
+    text-align: left;
+    font-size: 1rem;
+}
+
+h1{
+    text-align: center;
+}
+
+/*--------------------Name--------------------*/
+
+.customUnderline{
+    margin-left: 9rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: -1.3rem;
+    padding-bottom: 6rem;
+
+}
+
+#name{
+    color: white;
+    margin-left: -10rem;
+    font-size: 3rem;
+}
+
+.underlineName{
+    margin-top: 0.4rem;
+    margin-left: 1rem;
+    width: 15rem;
+    height: 0.2rem;
+    background-color: white;
+}
+
+.stylePointName{
+    background-color: white;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+#StylePointLeft{
+    margin-right: -1rem;
+}
+
+/*--------------------Name--------------------*/
+
