@@ -5,3 +5,5 @@ Je suis donc prêt à recevoir des retours s'il y a des choses que vous pouvez m
 Pour me contacter : <br>
 - mail -> kevin.chaffaux@gmail.com<br><br>
 - discord ->  Kevin C#4620
+
+![](cvResult.png)
