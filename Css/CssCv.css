@@ -28,7 +28,7 @@ body{
     width: 55rem;
     margin-right: 27rem;
     margin-top: -0.5rem;
-    background-color: #333;
+    background-color: rgb(43, 43, 43);
 }
 
 .containerLeft{
@@ -39,7 +39,7 @@ body{
     margin-top: -0.5rem;
     padding-top: 2rem;
     font-family: monospace;
-    background-color: #333;   
+    background-color: rgb(43, 43, 43);   
 }
 
 .containerCenter{
@@ -49,7 +49,7 @@ body{
     padding-top: 7rem;
     margin-top: -0.5rem;
     font-family: monospace;
-    background-color: #333;
+    background-color: rgb(43, 43, 43);
     color: white;
 }
 
@@ -114,7 +114,7 @@ body{
     margin-left: -43.2px;
     margin-right: 0px ;
     margin-bottom: -57.6px;
-    background-color : #333 ;
+    background-color : rgb(43, 43, 43);
     clip-path: polygon(100% 0, 0 0, 100% 100%);
 }
 
@@ -184,7 +184,7 @@ span{
     margin-top: -0.7rem;
     margin-left: 3rem;
     border-radius: 5px;
-    background-color: #333;
+    background-color: rgb(43, 43, 43);
 }
 
 .stylePoint{
@@ -193,7 +193,7 @@ span{
     margin-top: 1rem;
     margin-left: 2rem;
     margin-right: 1rem;
-    background-color: #333;
+    background-color: rgb(43, 43, 43);
     border-radius: 50%;
 }
 
@@ -206,8 +206,8 @@ span{
     height: 8rem;
     margin-bottom: 10rem;
     border-radius: 999px;
-    border: 5px solid #333;
-    background-color: #333;
+    border: 5px solid rgb(43, 43, 43);
+    background-color: rgb(43, 43, 43);
 }
 
 .cardImg{
