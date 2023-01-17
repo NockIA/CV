@@ -7,5 +7,7 @@ Pour me contacter : <br>
 - discord ->  Kevin C#4620
 
 Rendu :
+<p align="center">
+  <img src="Img/cvResult.png" />
+</p>
 
-[center]![cvResult](https://user-images.githubusercontent.com/103142957/212998020-6ba639ee-a449-4729-97c4-ceefa7b3f7c2.PNG)[/center]
