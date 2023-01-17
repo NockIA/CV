@@ -138,7 +138,6 @@ span{
 }
 
 .Title{
-    text-shadow:#333 1px 0 10px; 
     position: relative;
     width: 17rem;
     height: 2rem;
@@ -148,6 +147,7 @@ span{
     padding-top: 0.8rem;
     padding-bottom: 1rem;
     font-size: 0.9rem;
+    text-shadow:#333 1px 0 10px; 
     background-color: burlywood;
 }
 
@@ -246,29 +246,28 @@ h1{
 }
 
 #name{
-    text-shadow:#333 1px 0 10px; 
-    /* text-shadow:  #333 0px 4px;; */
     margin-left: -10rem;
     font-size: 3rem;
     color: white;
+    text-shadow:#333 1px 0 10px; 
 }
 
 .underlineName{
-    box-shadow:#333 1px 0 10px; 
     width: 15rem;
     height: 0.2rem;
     margin-top: 0.4rem;
     margin-left: 1rem;
     background-color: white;
+    box-shadow:#333 1px 0 10px; 
 }
 
 .stylePointName{
-    box-shadow:#333 1px 0 10px; 
     width: 1rem;
     height: 1rem;
     border-radius: 50%;
     margin-right: 1rem;
     background-color: white;
+    box-shadow:#333 1px 0 10px; 
 }
 
 #StylePointLeft{
