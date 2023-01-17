@@ -8,4 +8,4 @@ Pour me contacter : <br>
 
 Rendu :
 
-[center]![cvResult](https://user-images.githubusercontent.com/103142957/212998020-6ba639ee-a449-4729-97c4-ceefa7b3f7c2.PNG)[center]
+[center]![cvResult](https://user-images.githubusercontent.com/103142957/212998020-6ba639ee-a449-4729-97c4-ceefa7b3f7c2.PNG)[/center]
