@@ -8,6 +8,5 @@ Pour me contacter : <br>
 
 Rendu :
 <p align="center">
-  <img src="Img/cvResult.png" />
+  <img src="https://user-images.githubusercontent.com/103142957/212998645-373869c9-8bc9-48e7-8dfb-6a18f03fba9c.PNG" />
 </p>
-
