@@ -30,6 +30,7 @@ body{
         margin-bottom: 57rem;
     }
     .containerCenter{
+        flex-direction: row;
         padding-top: 3rem;
         padding-left: 2rem;
         margin-left: -0.5rem;
@@ -84,6 +85,7 @@ body{
         background-color: white;
     }
     .containerCenter{
+        flex-direction: column;
         width: 26rem;
         padding-top: 7rem;
         margin-top: -0.5rem;
@@ -149,7 +151,6 @@ body{
 
 .containerCenter{
     display: flex;
-    flex-direction: column;
     font-family: monospace;
     background-color: rgb(43, 43, 43);
     color: white;
