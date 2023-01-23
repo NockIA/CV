@@ -129,6 +129,7 @@ body{
         margin-left: 7.7rem;
     }
     #name{
+        padding-top: 2.3rem;
         margin-left: -10rem;
         font-size: 3rem;
     }
@@ -140,7 +141,9 @@ body{
         padding-left: 5rem;
         margin-top: 5.5rem;
     }
-
+    .titleBelow{
+        margin-top: 1.5rem;
+    }
     .cardImg{
         margin-left: 4rem;
     }
@@ -153,9 +156,6 @@ body{
     .references{
         gap: 0.5rem;
     }    
-    .titleBelow{
-        margin-top: 1.5rem;
-    }
     #referenceLinkedin{
         margin-top: -3rem;
         width: 2.5rem; 
@@ -220,7 +220,6 @@ body{
     background-color : white;
     border-radius: 30px;
 }
-
 
 #marginTopDescription{
     margin-top: 1rem;    
