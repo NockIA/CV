@@ -1,96 +1,109 @@
 body{
-    padding-top: 3rem;
     background-color: wheat;
     }
 
 /*--------------------Querys--------------------*/
-
-@media only screen and ( max-width: 900px ) {
+@media only screen and ( max-width: 700px ) {
+    body{
+        padding-top: 0.8rem;
+    }
     .globalContainer{
         flex-direction: column;
-        width: 49rem;
-        height: 99rem;
-        margin-left: 3.3rem;
+        align-items: center;
+        width: auto;
+        height: auto;
+        padding-bottom: 1rem;
     }
     .containerRight{
-        width: 25rem;
-        height: 71.3rem; 
-        margin-top: -20rem;
-        margin-left: 27rem;
         flex-direction: row;
+        width: auto;
+        margin-top: 4rem;
+        margin-left: 0.5rem;
+        gap: 1rem;
     }
     .containerDescription{
-        width: 44.6rem;
-        height: 43.52rem;
-        padding-left: 0rem;
-        padding-bottom: -0rem;
-        margin-left: 2.5rem;
+        width: auto;
+        height: auto;
+        padding-bottom: 1rem;
     }
     .containerName{
-        height: 10em;
-        width: 37.1rem;
-        padding-top: 0.5rem;
-        margin-top: -62.5rem;
-        margin-left: 19.75rem ;
-        margin-bottom: 54rem;
+        height: 10em; 
+        padding-top: 01.5rem;
+        margin-top: 1rem;
     }
     .containerCenter{
         flex-wrap: wrap;
         flex-direction: row;
-        padding-bottom: 2rem ;
+        width: auto;
         padding-top: 3rem;
-        padding-left: 2rem;
-        margin-left: -0.5rem;
     }
     .containerInformations{
-        width: 23rem;
+        width: auto;
+    }
+    .containerPresentation{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
     }
     .cardImg{
-        margin-left: 2rem;
+        margin-left: 15px;
+    }
+    .styleImg{
+        width: 6rem;
+        height: 6rem;
     }
     .customUnderline{
-        margin-left: 7rem;
+        margin-left: 1.2rem;
+        padding-bottom: 1rem;
+    }
+    .underlineName{
+        width: 8rem;
     }
     #name{
+        width: 11rem;
         padding-top: 0.5rem;
-        margin-left: -6rem;
+        margin-top: -0rem;
+        margin-left: 0.5rem;
         font-size: 2rem;
     }
     .title{
         margin-left: 3rem;
         padding-left: 0rem;
-        margin-top: 0rem;
     }
-    .referencesText{
-        color: white;
+    .titleBelow{
+        margin-top: 1.5rem;
     }
     .triangle{
         display: none;
     } 
-    .titleBelow{
-        margin-top: 0rem;
+    .references{
+        margin-top: 1.3rem;
     }
-    .marginContact{
-        margin: 0;
+    .referencesText{
+        color: white;
     }
     #referenceGithub{
         margin-bottom: 1rem;
         margin-top: -7rem;
     }
     #referenceLinkedin{
-        margin-top: -3rem;
         width: 3rem; 
         height: 3rem;
+        margin-top: -3rem;
         margin-bottom: 1rem;
     }
 }
     
-@media only screen and ( min-width: 900px ) {
+@media only screen and ( min-width: 700px ) {
+    body{
+        padding-top: 3rem;
+    }
     .globalContainer{
         flex-direction: row;
         width: 53rem;
         height: 71.55rem;
-        margin-left: 30rem;
+        margin-right: 27rem;
+        margin-left: 28vw;
     }
     .containerDescription{
         width: 30rem;
@@ -102,44 +115,56 @@ body{
         clip-path: polygon(17% 0%, 100% 0, 100% 91%, 17% 91%);
     }
     .containerName{
+        position: absolute;
         height: 10rem;
         width: 42.3rem;
-        margin-top: -3.5rem;
-        margin-bottom: 4rem;
-        margin-left: -5.75rem ;
+        margin-top: -15.5rem;
+        margin-left: 23.25rem ;
+        clip-path: polygon(0% 0%, 75.03% 0, 75.03% 100%, 0% 100%);
     }
     .containerRight{
         flex-direction: column;
-        margin-top: 18.5rem;
-        width: 10rem;
+        width: 7.50rem;
         height: 55.3rem;
+        gap: 8rem;
+        margin-top: 18.5rem;
+        margin-right: -4rem;
         margin-left: -5rem;
         background-color: white;
+        clip-path: polygon(66.7% 0, 0% 0%, 0% 96%, 66.7% 96%);
     }
     .containerCenter{
         flex-direction: column;
-        width: 26rem;
+        width: auto;
         padding-top: 7rem;
         margin-top: -0.5rem;
     }
+    .containerLeft{
+        margin-top: -0.5rem;
+        margin-left: -0.5rem;
+    }
     .containerInformations{
-        width: auto;
+        padding-top: 9rem;
+        width: 26rem;
     }
     .customUnderline{
         margin-left: 7.7rem;
+        padding-bottom: 6rem;
+    }
+    .underlineName{
+        width: 15rem;
     }
     #name{
         padding-top: 2.3rem;
+        margin-top: -0.3rem;
         margin-left: -10rem;
         font-size: 3rem;
     }
-    #titleBack{
-        clip-path: polygon(24% 0%, 105% 0%, 105% 105%, 24% 105%);  
-    }
     .title{
         margin-left: -8rem;
-        padding-left: 5rem;
         margin-top: 5.5rem;
+        padding-left: 5rem;
+        clip-path: polygon(24% 0%, 105% 0%, 105% 105%, 24% 105%); 
     }
     .titleBelow{
         margin-top: 1.5rem;
@@ -147,14 +172,19 @@ body{
     .cardImg{
         margin-left: 4rem;
     }
-    .referencesText{
-        color: #333;
+    .styleImg{
+        width: 8rem;
+    height: 8rem;
     }
-    .marginContact{
-        margin:0;
+    .referencesText{
+        margin-top: 5rem;
+        rotate: 90deg;
+        color: #333;
     }
     .references{
         gap: 0.5rem;
+        margin-top: 8rem;
+        padding-right: 2rem;
     }    
     #referenceLinkedin{
         margin-top: -3rem;
@@ -162,12 +192,13 @@ body{
         height: 2.5rem;
         margin-bottom: 1rem;
     }
-}
-    
+    .desktop{
+        display: none;
+    }
+}  
 /*--------------------Querys--------------------*/
 
 /*--------------------Animations--------------------*/
-
 @keyframes rotate {
     0% {
       transform: rotate3d(0, 0, 1, 0deg);
@@ -176,14 +207,11 @@ body{
       transform: rotate3d(0, 0, 1, 360deg);
     }
   }
-
 /*--------------------Animations--------------------*/
 
 /*--------------------Containers--------------------*/
-
 .globalContainer{
     display: flex;
-    margin-right: 27rem;
     margin-top: -0.5rem;
     background-color: rgb(43, 43, 43);
 }
@@ -192,8 +220,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: -0.5rem;
-    margin-top: -0.5rem;
     padding-top: 2rem;
     font-family: monospace;
     background-color: rgb(43, 43, 43);   
@@ -208,10 +234,7 @@ body{
 
 .containerRight{
     display: flex;
-    gap: 8rem;
-    margin-right: -4rem;
     border-radius: 30px;
-    clip-path: polygon(66.7% 0, 0% 0%, 0% 96%, 66.7% 96%);
 }
 
 .containerDescription{
@@ -235,18 +258,15 @@ body{
     align-items: center;
     border-radius: 30px;
     background-color: burlywood;
-    clip-path: polygon(0% 0%, 75.03% 0, 75.03% 100%, 0% 100%);
 }
 
 .containerContact{
     display: flex;
     flex-direction: column;
 }
-
 /*--------------------Containers--------------------*/
 
 /*--------------------Category Css--------------------*/
-
 .triangle{
     width: 44.8px;
     height: 48px;
@@ -261,12 +281,6 @@ body{
     display: flex;
     flex-direction: row;
     margin-top: 1.5rem;
-}
-
-.rating{
-    display: flex;
-    flex-direction: row;
-    margin-top: 1.1rem;
 }
 
 #ratingLanguages{
@@ -289,13 +303,11 @@ span{
     padding-top: 0.8rem;
     padding-bottom: 1.2rem;
     font-size: 0.9rem;
+    font-family: monospace;
     text-shadow:#333 1px 0 10px; 
+    color: white;
     background-color: burlywood;
-}
-
-#titleBack{
     border-radius: 20px;
-    background-color: burlywood;
 }
 
 .stars{
@@ -305,19 +317,28 @@ span{
 }
 
 #starSpacing{
+    margin-top: 0.1rem;
     letter-spacing: -0.7rem;
 }
 
 .passionsLogo{
     display: flex;
     flex-direction: column;
-    padding-top: 3rem;
+    padding-top: 2.8rem;
     gap: 1.5rem;
 }
 
+.marginContact{
+    margin:0;
+}
 /*--------------------Category Css--------------------*/
 
 /*--------------------Description--------------------*/
+.customUnderline{
+    display: flex;
+    flex-direction: row;
+    margin-top: -1.3rem;
+}
 
 .styleUnderline{
     width: 15rem;
@@ -337,14 +358,10 @@ span{
     background-color: rgb(43, 43, 43);
     border-radius: 50%;
 }
-
 /*--------------------Description--------------------*/
 
 /*--------------------Profil Picture--------------------*/
-
 .styleImg {
-    width: 8rem;
-    height: 8rem;
     margin-bottom: 10rem;
     border-radius: 999px;
     border: 5px solid rgb(43, 43, 43);
@@ -361,19 +378,15 @@ span{
     clip-path: polygon(49% 75%, 100% 100%, 100% 0, 0 0, 0 100%);
     background-color: burlywood;
 }
-
 /*--------------------Profil Picture--------------------*/
 
 /*--------------------Texts--------------------*/
-
 p{
     text-align: left;
     padding-left: 3rem;
     padding-right: 2rem;
     font-size: 1rem;
 }
-
-
 
 h1{
     text-align: center;
@@ -387,25 +400,15 @@ h1{
     text-decoration: none;
     color: white;
 }
-
 /*--------------------Texts--------------------*/
 
 /*--------------------Name--------------------*/
-
-.customUnderline{
-    display: flex;
-    flex-direction: row;
-    margin-top: -1.3rem;
-    padding-bottom: 6rem;
-}
-
 #name{
     color: white;
     text-shadow:#333 1px 0 10px; 
 }
 
 .underlineName{
-    width: 15rem;
     height: 0.2rem;
     margin-top: 0.4rem;
     margin-left: 1rem;
@@ -425,17 +428,15 @@ h1{
 #stylePointLeft{
     margin-right: -1rem;
 }
-
 /*--------------------Name--------------------*/
 
 /*--------------------References--------------------*/
-
 .referencesText{
     text-decoration: none;
-    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     font-weight: bolder;
-    line-height: 1.5rem;
+    letter-spacing: 0.8rem;
 }
 
 .referencesImg{
@@ -450,13 +451,9 @@ h1{
 }
 
 .references{
-    margin-top: 5rem;
     justify-content: center;
     align-items: center;
-    /* padding-top: 0.5rem; */
-    padding-right: 2rem;
     display: flex;
     flex-direction: column;
 }
-
 /*--------------------References--------------------*/
