@@ -9,11 +9,15 @@ body{
     .globalContainer{
         flex-direction: column;
         width: 49rem;
+        height: 105rem;
         margin-left: 3.3rem;
     }
     .containerRight{
-        margin-top: -50.5rem;
-        margin-left: 30rem;
+        width: 25rem;
+        height: 71.3rem; 
+        margin-top: -20rem;
+        margin-left: 27rem;
+        flex-direction: row;
     }
     .containerDescription{
         width: 44.6rem;
@@ -27,13 +31,18 @@ body{
         padding-top: 0.5rem;
         margin-top: -68.5rem;
         margin-left: 19.75rem ;
-        margin-bottom: 57rem;
+        margin-bottom: 60rem;
     }
     .containerCenter{
+        flex-wrap: wrap;
         flex-direction: row;
+        padding-bottom: 2rem ;
         padding-top: 3rem;
         padding-left: 2rem;
         margin-left: -0.5rem;
+    }
+    .containerInformations{
+        width: 23rem;
     }
     .cardImg{
         margin-left: 2rem;
@@ -49,6 +58,7 @@ body{
     .title{
         margin-left: 3rem;
         padding-left: 0rem;
+        margin-top: 0rem;
     }
     .referencesText{
         color: white;
@@ -56,12 +66,29 @@ body{
     .triangle{
         display: none;
     } 
+    .titleBelow{
+        margin-top: 0rem;
+    }
+    .marginContact{
+        margin: 0;
+    }
+    #referenceGithub{
+        margin-bottom: 1rem;
+        margin-top: -2rem;
+    }
+    #referenceLinkedin{
+        margin-top: -1rem;
+        width: 3rem; 
+        height: 3rem;
+        margin-bottom: 1rem;
+    }
 }
     
 @media only screen and ( min-width: 900px ) {
     .globalContainer{
         flex-direction: row;
         width: 53rem;
+        height: 71.55rem;
         margin-left: 30rem;
     }
     .containerDescription{
@@ -80,7 +107,10 @@ body{
         margin-left: -5.75rem ;
     }
     .containerRight{
+        flex-direction: column;
         margin-top: 18.5rem;
+        width: 10rem;
+        height: 55.3rem;
         margin-left: -5rem;
         background-color: white;
     }
@@ -89,6 +119,9 @@ body{
         width: 26rem;
         padding-top: 7rem;
         margin-top: -0.5rem;
+    }
+    .containerInformations{
+        width: auto;
     }
     .customUnderline{
         margin-left: 7.7rem;
@@ -103,6 +136,7 @@ body{
     .title{
         margin-left: -8rem;
         padding-left: 5rem;
+        margin-top: 5.5rem;
     }
 
     .cardImg{
@@ -110,6 +144,21 @@ body{
     }
     .referencesText{
         color: #333;
+    }
+    .marginContact{
+        margin:0;
+    }
+    .references{
+        gap: 0.5rem;
+    }    
+    .titleBelow{
+        margin-top: 1.5rem;
+    }
+    #referenceLinkedin{
+        margin-top: -3rem;
+        width: 2.5rem; 
+        height: 2.5rem;
+        margin-bottom: 1rem;
     }
 }
     
@@ -132,7 +181,6 @@ body{
 
 .globalContainer{
     display: flex;
-    height: 71.55rem;
     margin-right: 27rem;
     margin-top: -0.5rem;
     background-color: rgb(43, 43, 43);
@@ -158,9 +206,6 @@ body{
 
 .containerRight{
     display: flex;
-    flex-direction: column;
-    height: 55.3rem;
-    width: 10rem;
     gap: 8rem;
     margin-right: -4rem;
     border-radius: 30px;
@@ -241,9 +286,8 @@ span{
     position: relative;
     width: 17rem;
     height: 2rem;
-    margin-top: 5.5rem;
     padding-top: 0.8rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1.2rem;
     font-size: 0.9rem;
     text-shadow:#333 1px 0 10px; 
     background-color: burlywood;
@@ -252,10 +296,6 @@ span{
 #titleBack{
     border-radius: 20px;
     background-color: burlywood;
-}
-
-.titleBelow{
-    margin-top: 1.5rem;
 }
 
 .stars{
@@ -406,7 +446,6 @@ h1{
 
 .references{
     margin-top: 5rem;
-    gap: 0.5rem;
     justify-content: center;
     align-items: center;
     /* padding-top: 0.5rem; */
