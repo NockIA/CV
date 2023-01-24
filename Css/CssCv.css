@@ -1,277 +1,355 @@
+@keyframes rotate {
+    0% {
+      transform: rotate3d(0, 0, 1, 0deg);
+    }
+    100% {
+      transform: rotate3d(0, 0, 1, 360deg);
+    }
+  }
+
+/*--------------------Querys--------------------*/
+@media only screen and ( max-width: 700px ) {
+    .containerBody{
+        flex-direction: column;
+    }
+    .containerName{
+        margin: 1rem;
+    }
+    .underline{
+        width: 2rem;
+    }
+    .containerGlobalLink{
+        font-family: monospace;
+        gap: 3rem;
+        flex-direction: row;
+    }
+    .containerLink{
+        margin-left: 1rem;
+        margin-top: -1rem;
+    }
+    .containerDescription{
+        padding: 1rem;
+        margin: 0.5rem;
+    }
+    #h2Link{
+        color: white;
+    }
+    .linkedinLinkImg{
+        width: 3rem;
+        height: 3rem;
+    }
+    .githubLinkImg{
+        border-radius: 100%;
+        width: 3rem;
+        height: 3rem;
+    }
+    .basicRowContainer{
+        gap: 3rem;
+    }
+    .triangle{
+        display: none;
+    }
+    #phoneNumberMargin{
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and ( min-width: 700px ) {
+    .containerBody{
+        flex-direction: row;
+    }
+    .containerGlobal{
+        width: 54rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .containerHeader{
+        margin: 1rem;
+    }
+    .containerName{
+        font-size: 1.75rem;
+        margin-right: -2.41rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding-right: 5rem;
+        padding-left: 2rem;
+        clip-path: polygon(0% 0%, 90% 0, 90% 100%, 0% 100%);
+    }
+    .underline{
+        width: 20rem;
+    }
+    .containerUnderline{
+        margin-top: -2rem;
+        padding-bottom: 2rem;
+    }
+    .containerGlobalLink{
+        width: 6.5rem;
+        margin-right: -0.80rem;
+        /* margin-left: -1rem; */
+        border-radius: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+        flex-direction: column;
+        gap: 10rem;
+        clip-path: polygon(88% 0, 0% 0%, 0% 98.8%, 88% 98.8%);
+    }
+    .containerLink{
+        color: #333;
+        gap: 5rem;
+    }
+    .containerDescription{
+        padding: 1rem;
+        padding-left: 3rem;
+        margin-left: -1.5rem;
+        clip-path: polygon(5% 0%, 100% 0, 100% 98.8%, 5% 98.8%);
+    }
+    .linkedinLinkImg{
+        width: 3rem;
+        height: 3rem;
+    }
+    .githubLinkImg{
+        border-radius: 100%;
+        width: 4rem;
+        height: 4rem;
+    }
+    #h2Link{
+        rotate: 90deg;
+        color: #333;
+    }
+    #hide{
+        display: none;
+    }
+    .titleInformation{
+        z-index: 1;
+        margin-left: -6.5rem;
+        margin-right: 3rem;
+        clip-path: polygon(4% 0%, 100% 0%, 100% 100%, 4% 100%); 
+    }
+    .basicRowContainer{
+        margin-top: -1rem;
+        gap: 1rem;
+    }
+}
+/*--------------------Querys--------------------*/
+
 body{
-    padding-top: 3rem;
-    background-color: wheat;
-    }
-
-/*--------------------Querys--------------------*/
-
-@media only screen and ( max-width: 900px ) {
-    .globalContainer{
-        margin-left: 2.3rem;
-    }
-}
-    
-@media only screen and ( min-width: 900px ) {
-    .globalContainer{
-        margin-left: 30rem;
-    }
-}
-    
-/*--------------------Querys--------------------*/
-
-/*--------------------Containers--------------------*/
-
-.globalContainer{
-    height: 70.5rem;
-    /* margin-left: 38rem; */
-    min-width: 55rem;
-    max-width: 55rem;
-    margin-right: 27rem;
-    display: flex;
-    flex-direction: row;
-    margin-top: -0.5rem;
-    background-color: #333;
+    background: wheat;
 }
 
-.containerLeft{
-    min-height: 63.6rem;
-    margin-left: -0.5rem;
-    margin-top: -0.5rem;
-    padding-top: 2rem;
+.containerGlobal{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    font-family: monospace;
-    background-color: #333;   
-}
-
-.containerCenter{
-    min-height: 58.6rem;
-    width: 28rem;
-    padding-top: 7rem;
-    margin-top: -0.5rem;
-    display: flex;
-    flex-direction: column;
+    border-radius: 15px;
     background-color: #333;
-    color: white;
     font-family: monospace;
 }
 
-.containerRight{
-    margin-top: 18.5rem;
-    background-color: white;
-    height: 54.2rem;
-    border-radius: 30px;
-    width: 10rem;
-    margin-right: -4rem;
-    margin-left: -5rem;
-    clip-path: polygon(66.6% 0, 0% 0%, 0% 96%, 66.6% 96%);
-}
+/*--------------------Header--------------------*/
 
-.containerDescription{
-    max-height: 13.45rem;
-    padding-top: 3rem;
-    background-color : white;
-    margin-left: -6rem;
-    margin-right: 0rem ;
-    width: 30rem;
-    padding-left: 5rem;
-    border-radius: 30px;
-    margin-bottom: -6.3rem;
-    padding-bottom: 6.98rem;
-    clip-path: polygon(17% 0%, 100% 0, 100% 91%, 17% 91%);
-}
-
-#paddingLastDescription{
-    padding-bottom: 0;
-    margin-bottom: 0;
-    min-height: 18.73rem;
-    
-}
-
-.containerCategory{
+.containerHeader{
     display: flex;
     flex-direction: row;
-    margin-left: 1rem;
+    justify-content:space-between;
+    width: 100%;
 }
 
-.containerName{
-    margin-left: -5.75rem ;
-    clip-path: polygon(0% 0%, 75% 0, 75% 100%, 0% 100%);
-    margin-top: -3.5rem;
-    align-items: center;
-    background-color: burlywood;
-    border-radius: 30px;
-    height: 10rem;
-    width: 45rem;
-    margin-bottom: 4rem;
-}
-
-/*--------------------Containers--------------------*/
-
-/*--------------------Category Css--------------------*/
-
-.triangle{
-    background-color : #333 ;
-    margin-left: -2.7rem;
-    margin-right: 0rem ;
-    width: 2.8rem;
-    height: 3rem;
-    margin-bottom: -3.5rem;
-    clip-path: polygon(100% 0, 0 0, 100% 100%);
-}
-
-.rating{
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: row;
-}
-
-#ratingTypeScript{
-    margin-top: -0.5rem;
-}
-
-#spanMaginTop{
-    margin-top: 1.9rem;
-}
-
-span{
-    margin-top: -0.9rem;
-}
-
-.Title{
-    margin-left: -8rem;
-    margin-top: 6.5rem;
-    position: relative;
-    width: 17rem;
-    background-color: burlywood;
-    padding-left: 5rem;
-    padding-top: 1.rem;
-    padding-bottom: 1rem;
-    height: 2rem;
-    font-size: 0.9rem;
-}
-
-#titleBack{
-    background-color: burlywood;
-    border-radius: 20px;
-    clip-path: polygon(24% 0, 100% 0, 100% 100%, 24% 100%);  
-}
-
-.titleBelow{
-    margin-top: 1.5rem;
-}
-
-.stars{
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-}
-
-.passionsLogo{
-    padding-top: 3rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-
-/*--------------------Category Css--------------------*/
-
-/*--------------------Description--------------------*/
-
-.styleUnderline{
-    margin-top: -0.7rem;
-    margin-left: 3rem;
-    width: 15rem;
-    height: 0.4rem;
-    border-radius: 5px;
-    background-color: #333;
-}
-
-.stylePoint{
-    margin-top: 1rem;
-    margin-left: 2rem;
-    background-color: #333;
-    width: 2rem;
-    height: 2rem;
-    border-radius: 50%;
-    margin-right: 1rem;
-}
-
-/*--------------------Description--------------------*/
-
-/*--------------------Profil Picture--------------------*/
-
-.styleImg {
-    margin-bottom: 10rem;
-    width: 8rem;
-    height: 8rem;
-    border: 5px solid #333;
-    background-color: #333;
-    border-radius: 999px;
-}
-
-.cardImg{
-    margin-bottom: 3rem;
-    margin-left: 4rem;
-    position:relative;
-    padding-top: 4rem;
-    padding: 1rem;
+.containerCard{
     height: 12rem;
+    margin: 1rem;
+    padding: 1rem;
     border-radius: 15px;
     clip-path: polygon(49% 75%, 100% 100%, 100% 0, 0 0, 0 100%);
     background-color: burlywood;
 }
 
-/*--------------------Profil Picture--------------------*/
-
-p{
-    padding-left: 3rem;
-    padding-right: 2rem;
-    text-align: left;
-    font-size: 1rem;
+.profilePicture{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 999px;
+    border: 5px solid rgb(43, 43, 43);
+    background-color: rgb(43, 43, 43);
 }
 
-h1{
+.containerName{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
     text-align: center;
-}
+    align-items: center;
+    border-radius: 30px;
+    background-color: burlywood;
+    color: white;
+    text-shadow:#333 1px 0 10px; 
+}   
 
-/*--------------------Name--------------------*/
-
-.customUnderline{
-    margin-left: 9rem;
+.containerUnderline{
     display: flex;
     flex-direction: row;
-    margin-top: -1.3rem;
-    padding-bottom: 6rem;
-
+    gap: 0rem;
 }
 
-#name{
-    color: white;
-    margin-left: -10rem;
-    font-size: 3rem;
-}
-
-.underlineName{
-    margin-top: 0.4rem;
-    margin-left: 1rem;
-    width: 15rem;
-    height: 0.2rem;
+.underline{
+    margin-top: 0.35rem;
+    height: 0.3rem;
     background-color: white;
+    box-shadow:#333 1px 0 10px; 
 }
 
-.stylePointName{
-    background-color: white;
+.stylePoint{
     width: 1rem;
     height: 1rem;
     border-radius: 50%;
-    margin-right: 1rem;
+    background-color: white;
+    box-shadow:#333 1px 0 10px; 
 }
 
-#StylePointLeft{
-    margin-right: -1rem;
+/*--------------------Header--------------------*/
+
+/*--------------------Body--------------------*/
+
+.containerBody{
+    display: flex;
 }
+    /*--------------------Description--------------------*/
 
-/*--------------------Name--------------------*/
+    .containerDescription{
+        border-radius: 15px;
+        background-color: white;
+    }
 
+    .containerDescriptionTitle{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        color: #333;
+    }
+
+    .pointTitle{
+        margin: 1.25rem;
+        width: 1.75rem;
+        height: 1.75rem;
+        border-radius: 50%;
+        background-color: #333;
+    }
+
+    .underlineTitle{
+        height: 0.35rem;
+        width: 50%;
+        margin-top: -0.89rem;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+        border-radius: 999px;
+        background-color: #333;
+    }
+
+    .text{
+        margin-left: 1rem;
+        text-indent: 2rem;
+        line-height: 1.2rem;
+        font-size: 1rem;
+        padding-right: 1.5rem;
+    }
+
+    /*--------------------Description--------------------*/
+
+    /*--------------------Information--------------------*/
+
+    .containerInformations{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .containerComponent{
+        display: flex;
+        flex-direction: column;
+        margin: 3rem;
+    }
+
+    .titleInformation{
+        margin-top: -0.5rem;
+        padding: 1rem; 
+        border-radius: 15px;
+        text-align: center;
+        color: white;
+        text-shadow:#333 1px 0 10px; 
+        background-color: burlywood;
+    }
+
+    .contactLink{
+        color: white;
+        font-size: 1rem;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .basicRowContainer{
+        display: flex;
+        flex-direction: row;
+        
+        margin-bottom: -2rem;
+    }
+
+    .elementNames{
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+
+    .containerEmojis{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.5rem;
+        row-gap: 0rem;
+        ;
+        gap: 0.40rem;
+        color: white;
+    }
+
+    .triangle{
+        width: 3rem;
+        height: 48px;
+        margin-left: -5.8rem;
+        margin-right: 0px ;
+        margin-top: -1.12rem;
+        background-color : #333;
+        clip-path: polygon(100% 0, 0 0, 100% 100%);
+    }
+
+    /*--------------------Information--------------------*/
+
+    /*--------------------Links--------------------*/
+
+    .containerGlobalLink{
+        display: flex;
+        color: white;
+        justify-content: center;
+    }
+
+    .containerLink{    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.2rem;
+    }
+
+    .linkedinLinkImg{
+        border-radius: 100%;
+        filter: grayscale(100%);
+    }
+
+    .githubLinkImg:hover{
+        animation: rotate 1.5s normal ease-in-out;
+    }
+    .linkedinLinkImg:hover{
+        animation: rotate 1.5s normal ease-in-out;
+    }
+
+    /*--------------------Links--------------------*/
+
+/*--------------------Body--------------------*/
