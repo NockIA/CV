@@ -117,14 +117,15 @@ body{
     
 @media only screen and ( min-width: 700px ) {
     body{
-        padding-top: 3rem;
+        padding-top: 1rem;
     }
     .globalContainer{
         flex-direction: row;
-        width: 53rem;
-        height: 71.55rem;
-        margin-right: 27rem;
-        margin-left: 20vw;
+        justify-content: center;
+        width: 54rem;
+        height: 72.05rem;
+        margin-right: auto;
+        margin-left: auto;
     }
     .containerDescription{
         width: 30rem;
@@ -135,18 +136,26 @@ body{
         margin-left: -6rem;
         clip-path: polygon(17% 0%, 100% 0, 100% 91%, 17% 91%);
     }
+    /* .containerPresentation{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: auto;
+        gap: 0.8rem;
+        padding-bottom: 15rem;
+    } */
     .containerName{
         position: absolute;
         height: 10rem;
         width: 42.3rem;
         margin-top: -15.5rem;
-        margin-left: 23.25rem ;
+        margin-left: 23.26rem ;
         clip-path: polygon(0% 0%, 75.03% 0, 75.03% 100%, 0% 100%);
     }
     .containerRight{
         flex-direction: column;
         width: 7.50rem;
-        height: 55.3rem;
+        height: 55.79rem;
         gap: 8rem;
         margin-top: 18.5rem;
         margin-right: -4rem;
@@ -158,10 +167,8 @@ body{
         flex-direction: column;
         width: auto;
         padding-top: 7rem;
-        margin-top: -0.5rem;
     }
     .containerLeft{
-        margin-top: -0.5rem;
         margin-left: -0.5rem;
         background-color: rgb(43, 43, 43);  
     }
@@ -478,9 +485,9 @@ h1{
 }
 
 .references{
-    justify-content: center;
-    align-items: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 /*--------------------References--------------------*/
