@@ -37,18 +37,25 @@ body{
     .containerCenter{
         flex-wrap: wrap;
         flex-direction: row;
+        justify-content: center;
         width: auto;
+        /* margin-left: 0.8rem; */
         padding-top: 3rem;
     }
+    .containerContact{
+        margin-left: 0.5rem;
+        width: 15.5rem;
+    }
     .containerInformations{
+        justify-content: flex-start;
         width: auto;
     }
     .containerPresentation{
         display: flex;
         justify-content: center;
         flex-direction: row;
-        width: 100%;
-        gap: 1rem;
+        width: auto;
+        gap: 0.8rem;
     }
     .containerLeft{
         border-radius: 15px;
@@ -71,11 +78,11 @@ body{
         width: 11rem;
         padding-top: 0.5rem;
         margin-top: -0rem;
-        margin-left: 0.5rem;
+        margin-left: 0.6rem;
         font-size: 2rem;
     }
     .title{
-        margin-left: 3rem;
+        /* margin-left: 3rem; */
         padding-left: 0rem;
     }
     .titleBelow{
@@ -100,6 +107,12 @@ body{
         margin-top: -3rem;
         margin-bottom: 1rem;
     }
+    .stars{
+        margin-left: 0.5rem;
+    }
+    #pText{
+        padding-left: 3rem;
+    }
 }
     
 @media only screen and ( min-width: 700px ) {
@@ -111,7 +124,7 @@ body{
         width: 53rem;
         height: 71.55rem;
         margin-right: 27rem;
-        margin-left: 28vw;
+        margin-left: 20vw;
     }
     .containerDescription{
         width: 30rem;
@@ -150,10 +163,13 @@ body{
     .containerLeft{
         margin-top: -0.5rem;
         margin-left: -0.5rem;
+        background-color: rgb(43, 43, 43);  
     }
     .containerInformations{
-        padding-top: 9rem;
         width: 26rem;
+    }
+    #marginContainerInformations{
+        margin-top: 9rem;
     }
     .customUnderline{
         margin-left: 7.7rem;
@@ -203,6 +219,12 @@ body{
     .desktop{
         display: none;
     }
+    .contactLink{
+        padding-left: 3rem;
+    }
+    p{
+        padding-left: 3rem;
+    }
 }  
 /*--------------------Querys--------------------*/
 
@@ -229,8 +251,7 @@ body{
     flex-direction: column;
     align-items: flex-start;
     padding-top: 2rem;
-    font-family: monospace;
-    background-color: rgb(43, 43, 43);   
+    font-family: monospace; 
 }
 
 .containerCenter{
@@ -391,7 +412,6 @@ span{
 /*--------------------Texts--------------------*/
 p{
     text-align: left;
-    padding-left: 3rem;
     padding-right: 2rem;
     font-size: 1rem;
 }
@@ -402,7 +422,6 @@ h1{
 
 .contactLink{
     text-align: left;
-    padding-left: 3rem;
     padding-right: 2rem;
     font-size: 1rem;
     text-decoration: none;
