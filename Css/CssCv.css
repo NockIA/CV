@@ -1,241 +1,3 @@
-body{
-    background-color: wheat;
-    }
-
-/*--------------------Querys--------------------*/
-@media only screen and ( max-width: 700px ) {
-    body{
-        padding-top: 0.5rem;
-    }
-    .globalContainer{
-        border-radius: 15px;
-        flex-direction: column;
-        align-items: center;
-        width: auto;
-        height: auto;
-        padding-bottom: 1rem;
-    }
-    .containerRight{
-        flex-direction: row;
-        width: auto;
-        margin-top: 4rem;
-        margin-left: 0.5rem;
-        gap: 1rem;
-    }
-    .containerDescription{
-        margin: 0.5rem;
-        width: auto;
-        height: auto;
-        padding-bottom: 1rem;
-    }
-    .containerName{
-        align-self:flex-start;
-        height: 10em; 
-        padding-top: 01.5rem;
-        margin-top: 1rem;
-    }
-    .containerCenter{
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: center;
-        width: auto;
-        /* margin-left: 0.8rem; */
-        padding-top: 3rem;
-    }
-    .containerContact{
-        margin-left: 0.5rem;
-        width: 15.5rem;
-    }
-    .containerInformations{
-        justify-content: flex-start;
-        width: auto;
-    }
-    .containerPresentation{
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        width: auto;
-        gap: 0.8rem;
-    }
-    .containerLeft{
-        border-radius: 15px;
-    }
-    .cardImg{
-        margin-left: 15px;
-    }
-    .styleImg{
-        width: 6rem;
-        height: 6rem;
-    }
-    .customUnderline{
-        margin-left: 1.2rem;
-        padding-bottom: 1rem;
-    }
-    .underlineName{
-        width: 8rem;
-    }
-    #name{
-        width: 11rem;
-        padding-top: 0.5rem;
-        margin-top: -0rem;
-        margin-left: 0.6rem;
-        font-size: 2rem;
-    }
-    .title{
-        /* margin-left: 3rem; */
-        padding-left: 0rem;
-    }
-    .titleBelow{
-        margin-top: 1.5rem;
-    }
-    .triangle{
-        display: none;
-    } 
-    .references{
-        margin-top: 1.3rem;
-    }
-    .referencesText{
-        color: white;
-    }
-    #referenceGithub{
-        margin-bottom: 1rem;
-        margin-top: -7rem;
-    }
-    #referenceLinkedin{
-        width: 3rem; 
-        height: 3rem;
-        margin-top: -3rem;
-        margin-bottom: 1rem;
-    }
-    .stars{
-        margin-left: 0.5rem;
-    }
-    #pText{
-        padding-left: 3rem;
-    }
-}
-    
-@media only screen and ( min-width: 700px ) {
-    body{
-        padding-top: 1rem;
-    }
-    .globalContainer{
-        flex-direction: row;
-        justify-content: center;
-        width: 54rem;
-        height: 72.05rem;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .containerDescription{
-        width: 30rem;
-        height: 49.52rem;
-        padding-bottom: 7.8rem;
-        padding-left: 5rem;
-        margin-bottom: -6.3rem;
-        margin-left: -6rem;
-        clip-path: polygon(17% 0%, 100% 0, 100% 91%, 17% 91%);
-    }
-    /* .containerPresentation{
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        width: auto;
-        gap: 0.8rem;
-        padding-bottom: 15rem;
-    } */
-    .containerName{
-        position: absolute;
-        height: 10rem;
-        width: 42.3rem;
-        margin-top: -15.5rem;
-        margin-left: 23.26rem ;
-        clip-path: polygon(0% 0%, 75.03% 0, 75.03% 100%, 0% 100%);
-    }
-    .containerRight{
-        flex-direction: column;
-        width: 7.50rem;
-        height: 55.79rem;
-        gap: 8rem;
-        margin-top: 18.5rem;
-        margin-right: -4rem;
-        margin-left: -5rem;
-        background-color: white;
-        clip-path: polygon(66.7% 0, 0% 0%, 0% 96%, 66.7% 96%);
-    }
-    .containerCenter{
-        flex-direction: column;
-        width: auto;
-        padding-top: 7rem;
-    }
-    .containerLeft{
-        margin-left: -0.5rem;
-        background-color: rgb(43, 43, 43);  
-    }
-    .containerInformations{
-        width: 26rem;
-    }
-    #marginContainerInformations{
-        margin-top: 9rem;
-    }
-    .customUnderline{
-        margin-left: 7.7rem;
-        padding-bottom: 6rem;
-    }
-    .underlineName{
-        width: 15rem;
-    }
-    #name{
-        padding-top: 2.3rem;
-        margin-top: -0.3rem;
-        margin-left: -10rem;
-        font-size: 3rem;
-    }
-    .title{
-        margin-left: -8rem;
-        margin-top: 5.5rem;
-        padding-left: 5rem;
-        clip-path: polygon(24% 0%, 105% 0%, 105% 105%, 24% 105%); 
-    }
-    .titleBelow{
-        margin-top: 1.5rem;
-    }
-    .cardImg{
-        margin-left: 4rem;
-    }
-    .styleImg{
-        width: 8rem;
-    height: 8rem;
-    }
-    .referencesText{
-        margin-top: 5rem;
-        rotate: 90deg;
-        color: #333;
-    }
-    .references{
-        gap: 0.5rem;
-        margin-top: 8rem;
-        padding-right: 2rem;
-    }    
-    #referenceLinkedin{
-        margin-top: -3rem;
-        width: 2.5rem; 
-        height: 2.5rem;
-        margin-bottom: 1rem;
-    }
-    .desktop{
-        display: none;
-    }
-    .contactLink{
-        padding-left: 3rem;
-    }
-    p{
-        padding-left: 3rem;
-    }
-}  
-/*--------------------Querys--------------------*/
-
-/*--------------------Animations--------------------*/
 @keyframes rotate {
     0% {
       transform: rotate3d(0, 0, 1, 0deg);
@@ -244,250 +6,364 @@ body{
       transform: rotate3d(0, 0, 1, 360deg);
     }
   }
-/*--------------------Animations--------------------*/
 
-/*--------------------Containers--------------------*/
-.globalContainer{
-    display: flex;
-    margin-top: -0.5rem;
-    background-color: rgb(43, 43, 43);
+/*--------------------Querys--------------------*/
+@media only screen and ( max-width: 700px ) {
+    .containerBody{
+        flex-direction: column;
+    }
+    .containerName{
+        margin: 1rem;
+        border-radius: 30px;
+    }
+    .containerUnderline{
+        margin-top: -0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .underline{
+        width: 2rem;
+    }
+    .containerGlobalLink{
+        font-family: monospace;
+        gap: 3rem;
+        flex-direction: row;
+    }
+    .containerLink{
+        margin-left: 0.5rem;
+        margin-top: -1rem;
+        letter-spacing: 0.2rem;
+    }
+    .containerDescription{
+        border-radius: 15px;
+        padding: 1rem;
+        margin: 0.5rem;
+    }
+    #h2Link{
+        color: white;
+    }
+    .linkedinLinkImg{
+        width: 3rem;
+        height: 3rem;
+    }
+    .githubLinkImg{
+        border-radius: 100%;
+        width: 3rem;
+        height: 3rem;
+    }
+    .basicRowContainer{
+        justify-content: center;
+        gap: 3rem;
+    }
+    .triangle{
+        display: none;
+    }
+    #phoneNumberMargin{
+        margin-top: 2rem;
+    }
+    .contactLink{
+        text-align: center;
+    }
+    .gapDesktop{
+        gap: 7rem;
+    }
+    .containerCard{
+        margin: 1rem;
+    }
 }
 
-.containerLeft{
+@media only screen and ( min-width: 700px ) {
+    .containerBody{
+        flex-direction: row;
+    }
+    .containerGlobal{
+        width: 54rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .containerName{
+        font-size: 1.75rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    .underline{
+        width: 20rem;
+    }
+    .containerUnderline{
+        margin-top: -2rem;
+        padding-bottom: 2rem;
+    }
+    .containerGlobalLink{
+        width: 6.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+        flex-direction: column;
+        gap: 10rem;
+        border-top-left-radius: 15px;
+        border-end-end-radius: 10px;
+    }
+    .containerLink{
+        color: rgb(43, 43, 43);
+        gap: 2rem;
+        letter-spacing: 0.2rem;
+    }
+    .containerDescription{
+        padding: 1rem;
+        padding-left: 2rem;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    .linkedinLinkImg{
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 1.5rem;
+    }
+    .githubLinkImg{
+        margin-top: -2rem;
+        border-radius: 100%;
+        width: 4rem;
+        height: 4rem;
+    }
+    #h2Link{
+        rotate: 90deg;
+        color: rgb(43, 43, 43);
+    }
+    #hide{
+        display: none;
+    }
+    .titleInformation{
+        z-index: 1;
+        margin-left: -6.5rem;
+        margin-right: 3rem;
+        clip-path: polygon(4% 0%, 100% 0%, 100% 100%, 4% 100%); 
+    }
+    .basicRowContainer{
+        margin-top: -1rem;
+        gap: 1rem;
+    }
+    .containerCard{
+        margin: 1.5rem;
+    }
+}
+/*--------------------Querys--------------------*/
+
+body{
+    background: wheat;
+}
+
+.containerGlobal{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding-top: 2rem;
-    font-family: monospace; 
-}
-
-.containerCenter{
-    display: flex;
+    border-radius: 15px;
+    background-color: rgb(43, 43, 43);
     font-family: monospace;
-    background-color: rgb(43, 43, 43);
-    color: white;
 }
 
-.containerRight{
-    display: flex;
-    border-radius: 30px;
-}
+/*--------------------Header--------------------*/
 
-.containerDescription{
-    text-indent: 2rem;
-    padding-top: 1rem;
-    background-color : white;
-    border-radius: 30px;
-}
-
-#marginTopDescription{
-    margin-top: 1rem;    
-}
-
-.containerCategory{
+.containerHeader{
     display: flex;
     flex-direction: row;
-    margin-left: 1rem;
+    justify-content:space-between;
+    width: 100%;
 }
 
-.containerName{
-    align-items: center;
-    border-radius: 30px;
-    background-color: burlywood;
-}
-
-.containerContact{
-    display: flex;
-    flex-direction: column;
-}
-/*--------------------Containers--------------------*/
-
-/*--------------------Category Css--------------------*/
-.triangle{
-    width: 44.8px;
-    height: 48px;
-    margin-left: -43.2px;
-    margin-right: 0px ;
-    margin-bottom: -57.6px;
-    background-color : rgb(43, 43, 43);
-    clip-path: polygon(100% 0, 0 0, 100% 100%);
-}
-
-.languages{
-    display: flex;
-    flex-direction: row;
-    margin-top: 1.5rem;
-}
-
-#ratingLanguages{
-    margin-top: -0.5rem;
-}
-
-#spanMargin{
-    margin-top: 1.9rem;
-    margin-left: 2rem;
-}
-
-span{
-    margin-top: -0.9rem;
-}
-
-.title{
-    position: relative;
-    width: 17rem;
-    height: 2rem;
-    padding-top: 0.8rem;
-    padding-bottom: 1.2rem;
-    font-size: 0.9rem;
-    font-family: monospace;
-    text-shadow:#333 1px 0 10px; 
-    color: white;
-    background-color: burlywood;
-    border-radius: 20px;
-}
-
-.stars{
-    display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
-}
-
-#starSpacing{
-    margin-top: 0.1rem;
-    letter-spacing: -0.7rem;
-}
-
-.passionsLogo{
-    display: flex;
-    flex-direction: column;
-    padding-top: 2.8rem;
-    gap: 1.5rem;
-}
-
-.marginContact{
-    margin:0;
-}
-/*--------------------Category Css--------------------*/
-
-/*--------------------Description--------------------*/
-.customUnderline{
-    display: flex;
-    flex-direction: row;
-    margin-top: -1.3rem;
-}
-
-.styleUnderline{
-    width: 15rem;
-    height: 0.4rem;
-    margin-top: -0.7rem;
-    margin-left: 3rem;
-    border-radius: 5px;
-    background-color: rgb(43, 43, 43);
-}
-
-.stylePoint{
-    width: 2rem;
-    height: 2rem;
-    margin-top: 1rem;
-    margin-left: 2rem;
-    margin-right: 1rem;
-    background-color: rgb(43, 43, 43);
-    border-radius: 50%;
-}
-/*--------------------Description--------------------*/
-
-/*--------------------Profil Picture--------------------*/
-.styleImg {
-    margin-bottom: 10rem;
-    border-radius: 999px;
-    border: 5px solid rgb(43, 43, 43);
-    background-color: rgb(43, 43, 43);
-}
-
-.cardImg{
-    position:relative;
+.containerCard{
     height: 12rem;
-    margin-bottom: 3rem;
-    padding-top: 4rem;
     padding: 1rem;
     border-radius: 15px;
     clip-path: polygon(49% 75%, 100% 100%, 100% 0, 0 0, 0 100%);
     background-color: burlywood;
 }
-/*--------------------Profil Picture--------------------*/
 
-/*--------------------Texts--------------------*/
-p{
-    text-align: left;
-    padding-right: 2rem;
-    font-size: 1rem;
+.profilePicture{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 999px    ;
+    border: 5px solid rgb(43, 43, 43);
+    background-color: rgb(43, 43, 43);
 }
 
-h1{
-    text-align: center;
-}
-
-.contactLink{
-    text-align: left;
-    padding-right: 2rem;
-    font-size: 1rem;
-    text-decoration: none;
-    color: white;
-}
-/*--------------------Texts--------------------*/
-
-/*--------------------Name--------------------*/
-#name{
-    color: white;
-    text-shadow:#333 1px 0 10px; 
-}
-
-.underlineName{
-    height: 0.2rem;
-    margin-top: 0.4rem;
-    margin-left: 1rem;
-    background-color: white;
-    box-shadow:#333 1px 0 10px; 
-}
-
-.stylePointName{
-    width: 1rem;
-    height: 1rem;
-    border-radius: 50%;
-    margin-right: 1rem;
-    background-color: white;
-    box-shadow:#333 1px 0 10px; 
-}
-
-#stylePointLeft{
-    margin-right: -1rem;
-}
-/*--------------------Name--------------------*/
-
-/*--------------------References--------------------*/
-.referencesText{
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    font-weight: bolder;
-    letter-spacing: 0.8rem;
-}
-
-.referencesImg{
-    border-radius: 999px;
-    width: 3rem;
-    height: 3rem;
-    filter:  grayscale(100%);
-}
-
-.referencesImg:hover{
-    animation: rotate 1.5s normal ease-in-out;
-}
-
-.references{
+.containerName{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-self: center;
+    text-align: center;
     align-items: center;
+    background-color: burlywood;
+    color: white;
+    text-shadow:rgb(43, 43, 43) 1px 0 10px; 
+}   
+
+.containerUnderline{
+    display: flex;
+    flex-direction: row;
+    gap: 0rem;
 }
-/*--------------------References--------------------*/
+
+.underline{
+    margin-top: 0.35rem;
+    height: 0.3rem;
+    background-color: white;
+    box-shadow:rgb(43, 43, 43) 1px 0 10px; 
+}
+
+.stylePoint{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow:rgb(43, 43, 43) 1px 0 10px; 
+}
+
+/*--------------------Header--------------------*/
+
+/*--------------------Body--------------------*/
+
+.containerBody{
+    display: flex;
+}
+    /*--------------------Description--------------------*/
+
+    .containerDescription{
+        background-color: white;
+    }
+
+    .containerDescriptionTitle{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        color: rgb(43, 43, 43);
+    }
+
+    .pointTitle{
+        margin: 1.25rem;
+        width: 1.75rem;
+        height: 1.75rem;
+        border-radius: 50%;
+        background-color: rgb(43, 43, 43);
+    }
+
+    .underlineTitle{
+        height: 0.35rem;
+        width: 50%;
+        margin-top: -0.89rem;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+        border-radius: 999px;
+        background-color: rgb(43, 43, 43);
+    }
+
+    .text{
+        margin-left: 1rem;
+        text-indent: 2rem;
+        line-height: 1.2rem;
+        font-size: 1rem;
+        padding-right: 1.5rem;
+    }
+
+    /*--------------------Description--------------------*/
+
+    /*--------------------Information--------------------*/
+
+    .containerInformations{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .containerComponent{
+        display: flex;
+        flex-direction: column;
+        margin: 3rem;
+    }
+
+    .titleInformation{
+        margin-top: -0.5rem;
+        padding: 1rem; 
+        border-radius: 15px;
+        text-align: center;
+        color: white;
+        text-shadow:rgb(43, 43, 43) 1px 0 10px; 
+        background-color: burlywood;
+    }
+
+    .contactLink{
+        color: white;
+        font-size: 1rem;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .basicRowContainer{
+        display: flex;
+        flex-direction: row;
+        
+        margin-bottom: -2rem;
+    }
+
+    .elementNames{
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+
+    .containerEmojis{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.5rem;
+        row-gap: 0rem;
+        ;
+        gap: 0.40rem;
+        color: white;
+    }
+
+    .triangle{
+        width: 3rem;
+        height: 48px;
+        margin-left: -5.8rem;
+        margin-right: 0px ;
+        margin-top: -1.12rem;
+        background-color : rgb(43, 43, 43);
+        clip-path: polygon(100% 0, 0 0, 100% 100%);
+    }
+
+    /*--------------------Information--------------------*/
+
+    /*--------------------Links--------------------*/
+
+    .containerGlobalLink{
+        display: flex;
+        color: white;
+        justify-content: center;
+    }
+
+    .containerLink{    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .linkedinLinkImg{
+        border-radius: 100%;
+        filter: grayscale(100%);
+    }
+
+    .githubLinkImg:hover{
+        animation: rotate 1.5s normal ease-in-out;
+    }
+    .linkedinLinkImg:hover{
+        animation: rotate 1.5s normal ease-in-out;
+    }
+
+    /*--------------------Links--------------------*/
+
+/*--------------------Body--------------------*/
