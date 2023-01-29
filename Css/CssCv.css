@@ -66,6 +66,9 @@
     .contentMoreInfo{
         margin-bottom: 1rem;
     }
+    .buttonMoreInfo{
+        margin-bottom: 1rem;
+    }
     #h2Link{
         color: white;
     }
@@ -262,7 +265,7 @@ body{
 
     .underlineTitle{
         height: 0.35rem;
-        width: 50%;
+        width: 15rem;
         margin-top: -0.89rem;
         margin-left: 1rem;
         margin-bottom: 2rem;
