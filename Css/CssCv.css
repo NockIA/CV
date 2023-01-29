@@ -76,7 +76,7 @@
         flex-direction: row;
     }
     .containerGlobal{
-        width: 54rem;
+        width: 58rem;
         margin-left: auto;
         margin-right: auto;
     }
@@ -110,7 +110,7 @@
         margin: 1.5rem;
     }
     .containerInformations{
-        gap: 1.45rem;
+        gap: 3.45rem;
     }
     .containerLink{
         gap: 2rem;
@@ -340,6 +340,36 @@ body{
         clip-path: polygon(100% 0, 0 0, 100% 100%);
     }
 
+    .moreInformation{
+        display: none;
+        color: white;
+        font-family: monospace;
+        margin-top: 3rem;
+        margin-bottom: -3rem;
+    }
+
+    .moreInfoContainer {
+        color: white;
+        margin-bottom: -3rem;
+        text-align: center;
+    }
+     
+    .buttonMoreInfo {
+        margin-top: 3.5rem;
+        color: white;
+        background: transparent;
+        border: 3px solid white;
+        padding: 0.5rem;
+        border-radius: 999px;
+        cursor: pointer;
+        font-family: monospace;
+    }
+     
+    .contentMoreInfo {
+        margin-top: 1.5rem;
+        margin-bottom: -3rem;
+        display: none;
+    }
     /*--------------------Information--------------------*/
 
     /*--------------------Links--------------------*/
